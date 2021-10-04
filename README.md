@@ -9,7 +9,7 @@ This plugin will install OpenVPN and open it as a tunnel for other jails
 Download the plugin manifest file to your local file system.
 
 ```shell
-fetch https://raw.githubusercontent.com/manifest.json
+fetch https://raw.githubusercontent.com/nickmcm92/iocage-plugin-openvpn-tunnel/master/openvpn-tunnel.json
 ```
 
 Install the plugin.  Adjust the network settings as needed.

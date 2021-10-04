@@ -1,7 +1,7 @@
 {
   "name": "openvpn-tunnel",
   "release": "12.2-RELEASE",
-  "artifact": "",
+  "artifact": "https://github.com/nickmcm92/iocage-plugin-openvpn-tunnel.git",
   "pkgs": [
       "openvpn"
   ],
