@@ -1,0 +1,3 @@
+ipfw -q -f flush #deletes all old rules
+ipfw -q nat 1 config if tun1 #add a rule to the nat table. it may be tun0 depending on what interfave the VPN uses.
+ipfw -q add nat 1 all from any to any via any #allow any to any
